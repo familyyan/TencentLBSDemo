@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lineraLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_input_test"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/bg_edittext"
+        android:hint="请输入测试环境Key"
+        android:paddingLeft="3dp"
+        android:textSize="16sp"></EditText>
+
+    <!--    <RadioGroup-->
+    <!--        android:id="@+id/rg_map_key"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:checkedButton="@id/rb_normal_type"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        android:layout_marginBottom="5dp"-->
+    <!--        android:padding="5dp">-->
+
+    <!--        <RadioButton-->
+    <!--            android:id="@+id/rb_test"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:text="测试环境" />-->
+
+    <!--        <RadioButton-->
+    <!--            android:id="@+id/rb_formal"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:text="正式环境" />-->
+
+    <!--    </RadioGroup>-->
+</LinearLayout>
